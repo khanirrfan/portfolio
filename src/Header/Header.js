@@ -15,11 +15,11 @@ export default class componentName extends Component {
                         <ul>
                             <li>
                             <i className="fa fa-user"></i>
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
                                 <i className="fa fa-battery-3"></i>
-                                <a href="#">Experience</a>
+                                <a href="#experience">Experience</a>
                             </li>
                             <li>
                                 <i className="fa fa-bell"></i>
@@ -27,15 +27,15 @@ export default class componentName extends Component {
                             </li>
                             <li>
                                 <i className="fa fa-university"></i>
-                                <a href="#">Education</a>
+                                <a href="#education">Education</a>
                             </li>
                             <li>
                                 <i className="fa fa-address-book"></i>
-                                <a href="#">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                             <li>
                                 <i className="fa fa-file"></i>
-                                <a href="#">Resume</a>
+                                <a href="#resume">Resume</a>
                             </li>
                            </ul>
                     </section>

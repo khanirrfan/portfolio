@@ -1,5 +1,4 @@
 import React from 'react';
-import Scrollspy from 'react-scrollspy'
 import './App.css';
 import Header from './Header/Header';
 import Home from './Home/Home';
