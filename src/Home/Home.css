@@ -1,0 +1,22 @@
+#intro.section h2{
+    width: 100%;
+    background-image: url(../images/photo/irfan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-weight: 200;
+    min-height:100vh;
+}
+/* section h2{
+    min-height:100vh;
+} */
+.teal{
+   background-color:teal;
+}
+.underline{
+    text-decoration: underline teal;
+}
+.imageOverlay{
+    padding: 20px 0 0 20px;
+    line-height: 150%;
+}

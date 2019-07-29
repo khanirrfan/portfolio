@@ -1,0 +1,14 @@
+body{
+  box-sizing: border-box;
+}
+.content{
+  width: 90%;
+  margin-left: 10%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url('../src/images/images.png');
+}
+.subHeading{
+  border-left: solid .5rem #795548;
+  color:#795548;
+}

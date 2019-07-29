@@ -1,0 +1,21 @@
+.headerClass{
+    margin:1rem 0;
+    background-color:#008073;
+    box-sizing: content-box;
+}
+.headerClass h1{
+    padding:1rem;
+    font-weight: 100;
+    color:#fff;
+}
+.subHeading{
+    border-left: solid .3rem #795548;
+    color:#795548;
+    padding-left: 1rem;
+}
+.container p {
+    font-family: inherit;
+    line-height: inherit;
+    font-size: 1.5rem;
+    font-weight: 100
+}
