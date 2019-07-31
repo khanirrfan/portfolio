@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class componentName extends Component {
+export default class Experience extends Component {
     render() {
         return (
             <div>
@@ -13,9 +13,9 @@ export default class componentName extends Component {
                            <div className="row">
                                 <div className="col-sm-12 col-md-4">
                                     <a className = "logo-class" href="https://www.enquero.com" >
-                                        <img src="../images/photo/enquero.png" alt="enquero-logo" />
+                                        <img src={"../images/photo/Enquero-Logo-03.png"} alt="enquero-logo" />
                                     </a>
-                                    <span>Enquero Global</span>
+                                    <span className="companyName">Enquero Global</span>
                                 </div>
                                 <div className="col-sm-12 col-md-8 designation">Front-End Developer</div>
                            </div>
@@ -54,7 +54,7 @@ export default class componentName extends Component {
                            <div className="row">
                                 <div className="col-sm-12 col-md-4">
                                     <a className = "logo-class" href="https://www.sqrfactor.com" >
-                                        <img src="../images/photo/enquero.png" alt="sqrfactor-logo" />
+                                        <img src="../src/images/photo/enquero.png" alt="sqrfactor-logo" />
                                     </a>
                                     <span>sqrFactor</span>
                                 </div>

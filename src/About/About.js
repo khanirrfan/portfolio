@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.css';
-export default class componentName extends Component {
+export default class About extends Component {
     render() {
         return (
           <div>
