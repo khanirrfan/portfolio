@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import logo from '../images/photo/Enquero-Logo-03.png';
 export default class Experience extends Component {
     render() {
         return (
@@ -13,7 +13,7 @@ export default class Experience extends Component {
                            <div className="row">
                                 <div className="col-sm-12 col-md-4">
                                     <a className = "logo-class" href="https://www.enquero.com" >
-                                        <img src={"../images/photo/Enquero-Logo-03.png"} alt="enquero-logo" />
+                                        <img src={logo} alt="enquero-logo" />
                                     </a>
                                     <span className="companyName">Enquero Global</span>
                                 </div>
