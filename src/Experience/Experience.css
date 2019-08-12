@@ -1,14 +1,15 @@
-.logo-class {
-    margin-left:2%;
-}
-.designation{
-    float:right;
-}
-.card .tenure{
+
+/* .card .tenure{
     margin-left: 5rem !important;
-}
-.card{
+} */
+/* .card{
     margin: 1rem;
+} */
+.designation{
+    top: 50%;
+    box-sizing: border-box;
+    transform: translateY(25%);
+
 }
 .companyName {
     margin: 0;
@@ -16,4 +17,11 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+  .logostyle1{
+      width: 100px !important;
+      margin:10px 20px !important;
+  }
+  .borderClass{
+      margin: 0 !important;
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../images/photo/Enquero-Logo-03.png';
+import './Experience.css'
 export default class Experience extends Component {
     render() {
         return (
@@ -12,14 +13,14 @@ export default class Experience extends Component {
                     <div className="card-content">
                            <div className="row">
                                 <div className="col-sm-12 col-md-4">
-                                    <a className = "logo-class" href="https://www.enquero.com" >
-                                        <img src={logo} alt="enquero-logo" />
+                                    <a href="https://www.enquero.com" >
+                                        <img className="logostyle1" src={logo} alt="enquero-logo" />
                                     </a>
                                     <span className="companyName">Enquero Global</span>
                                 </div>
-                                <div className="col-sm-12 col-md-8 designation">Front-End Developer</div>
+                                <div className="col-sm-12 col-md-8 float-right designation">Front-End Developer</div>
                            </div>
-                           <hr></hr>
+                           <hr className="borderClass"></hr>
                            <div className="">
                                        <p>
                                            <em>SaaS platform that enables enterprise companies to build, run, and measure their positive impact campaigns</em>
