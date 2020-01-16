@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../images/photo/Enquero-Logo-03.png';
+import logoenquero from '../images/photo/Enquero-Logo-03.png';
+import logosqrfactor from '../images/photo/sqrfactor.png';
 import './Experience.css'
 export default class Experience extends Component {
     render() {
@@ -14,11 +15,13 @@ export default class Experience extends Component {
                            <div className="row">
                                 <div className="col-sm-12 col-md-4">
                                     <a href="https://www.enquero.com" >
-                                        <img className="logostyle1" src={logo} alt="enquero-logo" />
+                                        <img className="logostyle1" src={logoenquero} alt="enquero-logo" />
                                     </a>
                                     <span className="companyName">Enquero Global</span>
                                 </div>
-                                <div className="col-sm-12 col-md-8 float-right designation">Front-End Developer</div>
+                                <div className="col-sm-12 col-md-8 ">
+                                    <span className="float-right designation">Front-End Developer</span>
+                                    </div>
                            </div>
                            <hr className="borderClass"></hr>
                            <div className="">
@@ -55,13 +58,15 @@ export default class Experience extends Component {
                            <div className="row">
                                 <div className="col-sm-12 col-md-4">
                                     <a className = "logo-class" href="https://www.sqrfactor.com" >
-                                        <img src="../src/images/photo/enquero.png" alt="sqrfactor-logo" />
+                                        <img className="logostyle1" src={logosqrfactor} alt="sqrfactor-logo" />
                                     </a>
-                                    <span>sqrFactor</span>
+                                    <span className="companyName">sqrFactor</span>
                                 </div>
-                                <div className="col-sm-12 col-md-8 designation">Front-End Intern</div>
+                                <div className="col-sm-12 col-md-8 ">
+                                    <span className="float-right designationSqr">Front-End Intern</span>
+                                    </div>
                            </div>
-                           <hr></hr>
+                           <hr className="borderClass"></hr>
                            <div className="">
                                        <p>
                                            <em>SaaS platform that enables enterprise companies to build, run, and measure their positive impact campaigns</em>
